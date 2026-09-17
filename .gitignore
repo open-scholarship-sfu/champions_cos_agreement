@@ -1,3 +1,4 @@
 data/
 rendered_agreements/
-.quarto/
+/.quarto/
+**/*.quarto_ipynb

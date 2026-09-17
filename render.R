@@ -15,6 +15,8 @@ output_dir <- "rendered_agreements"
 # Read participant data
 # ------------------------------------------------------------
 
+file_move(dir_ls("data", glob = "*.csv"), path("data", "participants.csv"))
+
 participants <- read_csv(spreadsheet, show_col_types = FALSE)
 
 participants <- participants |>
@@ -65,7 +67,6 @@ safe_filename <- function(name) {
 # ------------------------------------------------------------
 
 for (i in seq_len(nrow(participants))) {
-
   p <- participants[i, ]
 
   id <- as.character(p$id)
