@@ -1,0 +1,481 @@
+---
+title: "Open Scholarship Champions Program"
+subtitle: "Participant Commitment Agreement"
+author: "Open Scholarship Initiative\\
+        Simon Fraser University"
+date: "2026"
+format:
+  report_template-typst: 
+    page-numbering: false
+    toc: false
+    number-sections: false
+params:
+  name: ""
+  department_faculty_lab: ""
+  email: ""
+  id: ""
+---
+
+```{r}
+#| include: false
+
+name <- params$name
+department_faculty_lab <- params$department_faculty_lab
+email <- params$email
+id <- params$id
+```
+
+
+# Purpose
+
+This Participant Commitment Agreement (the “Agreement”) sets out the
+commitments of participants in the **Open Scholarship Champions Program**
+(the “Program”) administered by the **Open Scholarship Initiative at
+Simon Fraser University** (“SFU” or the “Open Scholarship Initiative”).
+
+The Program supports members of the SFU community in developing
+knowledge, skills, and practical experience in open scholarship and in
+sharing those practices with the broader SFU and scholarly community.
+
+This Agreement is entered into on October 31st, 2027 between:
+
+**Simon Fraser University**, through the **Open Scholarship Initiative**
+
+and
+
+**Participant name:** `r name`
+
+**Faculty / department / unit:** `r department_faculty_lab`
+
+**Email:** `r email`
+
+
+(hereinafter referred to as the “Participant”).
+
+# Recitals
+
+WHEREAS, Simon Fraser University is committed to supporting research,
+teaching, learning, and knowledge mobilization practices that advance
+openness, accessibility, transparency, inclusivity, and reproducibility;
+
+WHEREAS, the Open Scholarship Initiative supports the development of
+open scholarship capacity and community at SFU and within the broader
+scholarly ecosystem;
+
+WHEREAS, the Open Scholarship Champions Program provides participants
+with an opportunity to undertake training provided by the
+**Center for Open Science** (“COS”) and to apply that training in support
+of open scholarship;
+
+WHEREAS, the Program is intended to develop a community of Open
+Scholarship Champions who can share knowledge, resources, and practices
+with colleagues, students, researchers, instructors, staff, and other
+members of the scholarly community; and
+
+WHEREAS, the Participant wishes to participate in the Program and agrees
+to complete the training and a project that gives back to the open
+scholarship community;
+
+NOW, THEREFORE, the Open Scholarship Initiative and the Participant agree
+as follows.
+
+# 1. Definitions
+
+For the purposes of this Agreement:
+
+**“Center for Open Science”** or **“COS”** means the Center for Open Science,
+a nonprofit organization that develops infrastructure, tools, and
+training intended to improve the openness, integrity, and
+reproducibility of research.
+
+**“Open Scholarship Project”** means the research or community project undertaken by the Participant
+to apply, share, or extend knowledge gained through the Program for the
+benefit of the SFU or broader open scholarship community.
+
+**“Open Scholarship”** means approaches to scholarly research,
+communication, teaching, and knowledge sharing that seek to make
+scholarly outputs, processes, and practices more accessible, transparent,
+reproducible, inclusive, and reusable, as appropriate.
+
+**“Open Scholarship Champion”** means a Participant who has enrolled in
+the Program and undertaken the training and community contribution
+commitments described in this Agreement.
+
+**“Open Scholarship Initiative”** means the initiative at Simon Fraser
+University responsible for administering and supporting the Open
+Scholarship Champions Program.
+
+**“Program”** means the Open Scholarship Champions Program administered
+by the Open Scholarship Initiative.
+
+**“Participant”** means the individual identified as the Participant in
+this Agreement who has been accepted into the Program.
+
+**“SFU”** means Simon Fraser University, a university established under
+the *Simon Fraser University Act*, SBC 1965, c. 74.
+
+# 2. Program commitments
+
+The Participant agrees to participate in the Open Scholarship Champions
+Program and to undertake the Center for Open Science training identified
+by the Open Scholarship Initiative.
+
+The Participant further agrees to complete a Open Scholarship Project that
+contributes to the open scholarship community by **August 1, 2027**.
+
+The commitments under this Agreement are intended to support the
+Participant's professional and scholarly development while contributing
+to the development of open scholarship capacity within the SFU community.
+
+## 2.1. Registration and enrolment
+
+Upon receipt of this signed Agreement, the Open Scholarship Initiative will register the Participant for the designated Center for Open Science training, with registration to be completed no later than October 31, 2026.
+
+The Participant shall complete any registration, consent, or
+administrative requirements reasonably required for participation in the
+training and Program.
+
+## 2.2. Training participation and completion
+
+The Participant agrees to undertake and complete the designated Center
+for Open Science training within six months (i.e., no later than **May 1st, 2027**), in accordance with the requirements and
+deadlines communicated by the Open Scholarship Initiative and/or COS.
+
+The Participant will make reasonable efforts to:
+
+- attend or complete all required training activities;
+- complete required assignments, exercises, or assessments;
+- engage meaningfully with the training materials; and
+- apply relevant concepts from the training to their Open Scholarship Project.
+
+If circumstances arise that may prevent the Participant from completing
+the training as planned, the Participant should notify the Open
+Scholarship Initiative as soon as reasonably possible.
+
+## 2.3. Community contribution commitment
+
+As a condition of participation in the Program, the Participant agrees
+to undertake and complete an Open Scholarship Project.
+
+The Open Scholarship Project should make a meaningful contribution to the
+development, understanding, adoption, or dissemination of open
+scholarship practices.
+
+Examples of eligible projects may include:
+
+- developing or improving an open educational resource;
+- creating guides, documentation, templates, or other open resources;
+- organizing or supporting an open scholarship workshop or event;
+- delivering a presentation or training session for an SFU community;
+- developing resources to support open and reproducible research
+  practices;
+- contributing to an open-source software or infrastructure project;
+- contributing to an existing open scholarship initiative or community;
+- hosting open scholarship clinics for specific research groups;
+- developing resources that support researchers, instructors, students,
+  or staff in adopting open scholarship practices; or
+- another project approved by the Open Scholarship Initiative.
+
+Some examples of projects with more details can be found [here](https://hackmd.io/@graciellehigino/rJN8Unsgfx).
+
+The Open Scholarship Project must be completed **no later than August 1, 2027**.
+
+## 2.4. Project Proposal
+
+The Participant will develop a brief description of their proposed
+Open Scholarship Project in consultation with the Open Scholarship Initiative.
+
+The proposed project should identify:
+
+- the intended audience or community;
+- the open scholarship need or opportunity being addressed;
+- the principal activities or outputs;
+- the anticipated benefit to the community; and
+- an approximate timeline for completion.
+
+The project proposal may be revised during the Program where circumstances
+or opportunities warrant a change in scope.
+
+## 2.5. Project completion and documentation
+
+Upon completion of the Open Scholarship Project, the Participant will provide
+the Open Scholarship Initiative with a brief description of the
+activities undertaken and outputs produced.
+
+Where appropriate, project outputs should be made openly available
+through an appropriate repository, website, open educational resource
+platform, open-source platform, or other suitable venue.
+
+The Participant remains responsible for ensuring that project outputs
+comply with applicable copyright, privacy, ethical, contractual,
+institutional, and other legal requirements.
+
+# 3. Support provided by the Open Scholarship Initiative
+
+The Open Scholarship Initiative will provide Program participants with
+the support described in Program communications and materials.
+
+Depending on the Program arrangements, this support may include:
+
+- consultation and financial support for the Open Scholarship Project;
+- information and administrative support;
+- opportunities to connect with other Open Scholarship Champions;
+- opportunities to share project outcomes with the SFU community; and
+- other Program-related resources or activities.
+
+Any financial support provided by the Open Scholarship Initiative is
+subject to applicable SFU policies, procedures, funding requirements,
+and the terms communicated to the Participant.
+
+Unless expressly agreed otherwise in writing, the Open Scholarship
+Initiative is not responsible for expenses incurred by the Participant
+that are not specifically identified as eligible Program expenses.
+
+# 4. Community participation
+
+The Participant acknowledges that the Program is intended to develop a
+community of Open Scholarship Champions who contribute to a culture of
+open scholarship at SFU.
+
+Participants are therefore encouraged to:
+
+- participate in Program activities and community discussions;
+- share relevant knowledge and resources with the SFU community;
+- support colleagues and peers interested in open scholarship;
+- identify opportunities to advance open scholarship within their
+  academic, research, teaching, or professional contexts; and
+- share lessons learned from their COS training and Open Scholarship Project.
+
+Participation in these activities should be undertaken in a manner
+consistent with the Participant's role at SFU and applicable SFU
+policies and procedures.
+
+# 5. Intellectual property and open licensing
+
+The Participant retains ownership of intellectual property they create
+as part of the Open Scholarship Project, subject to:
+
+- applicable SFU policies;
+- agreements with third parties;
+- funding terms and conditions;
+- copyright and other intellectual property legislation;
+- rights of co-creators or collaborators; and
+- any other applicable legal or contractual obligations.
+
+The Participant is encouraged, where appropriate, to use open licences
+and repositories to facilitate access, reuse, adaptation, and
+redistribution of project outputs.
+
+Nothing in this Agreement requires the Participant to make public any
+material that is confidential, personal, sensitive, proprietary,
+restricted, or otherwise unsuitable for open dissemination.
+
+Where the Participant incorporates materials created by others, the
+Participant is responsible for respecting applicable copyright,
+licensing, attribution, and other intellectual property requirements.
+
+# 6. Confidentiality and privacy
+
+## 6.1. Confidential Information
+
+In the course of participating in the Program, the Participant may
+receive or have access to information that is confidential, proprietary,
+personal, or otherwise not intended for public disclosure
+(“Confidential Information”).
+
+The Participant agrees to:
+
+- use Confidential Information only for the purposes for which it was
+  provided;
+- take reasonable steps to protect Confidential Information from
+  unauthorized access, use, or disclosure; and
+- not disclose Confidential Information to another person unless
+  authorized to do so or required by law.
+
+Confidential Information does not include information that:
+
+- is publicly available through no breach of this Agreement;
+- was lawfully known to the Participant before it was disclosed;
+- is independently developed by the Participant without use of
+  Confidential Information; or
+- is lawfully received from another source without an obligation of
+  confidentiality.
+
+## 6.2. Personal Information
+
+The Participant's personal information will be collected, used, and
+disclosed in accordance with applicable privacy legislation and SFU
+policies and procedures.
+
+The Participant understands that information reasonably necessary for
+administering the Program may be collected and used for purposes
+including:
+
+- confirming eligibility and participation;
+- administering training and Program activities;
+- communicating with the Participant;
+- evaluating and improving the Program;
+- reporting on Program activities and outcomes; and
+- maintaining appropriate institutional records.
+
+The Open Scholarship Initiative will take reasonable steps to safeguard
+personal information and will limit its use and disclosure to purposes
+authorized by applicable law and SFU policy.
+
+## 6.3. Confidentiality of community discussions
+
+Participants may encounter unpublished research, personal experiences,
+draft materials, or other sensitive information through Program
+activities or community discussions.
+
+Participants are expected to exercise appropriate discretion and should
+not share such information outside the context in which it was provided
+without the permission of the person or group that provided it.
+
+# 7. Recognition and communications
+
+The Participant agrees that the Open Scholarship Initiative may identify
+the Participant as an Open Scholarship Champion in Program-related
+communications, reports, presentations, websites, or other materials.
+
+The Open Scholarship Initiative may also describe the general nature of
+the Participant's Open Scholarship Project and its publicly available outputs
+for the purposes of communicating about the Program and its activities.
+
+Any public description should respect applicable privacy, intellectual
+property, confidentiality, and institutional requirements.
+
+The Participant may, at any time, request that specific information about their project not be publicly shared, and the Open Scholarship Initiative will not publicly disclose such information unless required by applicable law, institutional policy, or funding requirements.
+
+# 8. Changes to the Open Scholarship Project
+
+The Participant may propose changes to the scope, format, audience, or
+outputs of the Open Scholarship Project.
+
+Material changes should be discussed with the Open Scholarship Initiative
+before implementation where reasonably possible.
+
+The purpose of this flexibility is to allow projects to respond to
+community needs, opportunities, or circumstances that arise during the
+Program while preserving the Participant's commitment to give back to
+the open scholarship community.
+
+# 9. Extension of the completion deadline
+
+The deadline for completion of the Open Scholarship Project is
+**August 1, 2027**.
+
+Where circumstances outside the Participant's reasonable control affect
+their ability to meet this deadline, the Participant may request an
+extension from the Open Scholarship Initiative.
+
+Any extension should be agreed upon in writing and may include a revised
+project scope, timeline, or completion plan.
+
+# 10. Termination and Withdrawal
+
+The Participant may withdraw from the Program by notifying the Open
+Scholarship Initiative in writing.
+
+The Open Scholarship Initiative may terminate a Participant's
+participation in the Program where there has been a material breach of
+this Agreement or where continued participation is inconsistent with
+applicable SFU policies or Program requirements.
+
+Where appropriate, the Open Scholarship Initiative will provide the
+Participant with an opportunity to address a material concern before
+termination.
+
+Termination or withdrawal does not affect obligations that, by their
+nature, survive termination, including applicable confidentiality and
+intellectual property obligations.
+
+
+# 11. Compliance with SFU Policies and Program Requirements
+
+The Participant agrees that their participation in the Program will be
+subject to applicable Simon Fraser University policies, procedures,
+codes, and guidelines.
+
+## 11.1. Open Scholarship Initiative Code of Conduct
+
+The Participant agrees to read, understand, and comply with the
+[**Open Scholarship Initiative Code of Conduct**](https://github.com/open-scholarship-sfu/code-of-conduct), as amended from time to
+time. The Code of Conduct establishes expectations for respectful,
+inclusive, professional, and constructive participation in the Program
+and related activities. The Participant is responsible for familiarizing themselves with the current version of the Code of Conduct throughout their participation in the Program.
+
+Compliance with the Code of Conduct is a condition of participation in
+the Open Scholarship Champions Program. A breach of the Code of Conduct
+may result in measures up to and including termination of the
+Participant's participation in the Program, in accordance with
+applicable SFU policies and procedures.
+
+Nothing in this Agreement is intended to modify or supersede any
+applicable SFU policy, collective agreement, employment agreement,
+student agreement, research agreement, or other institutional
+requirement.
+
+Where there is a conflict between this Agreement and a mandatory SFU
+policy or legal requirement, the applicable policy or legal requirement
+will govern.
+
+
+# 12. No employment or academic appointment
+
+Participation in the Open Scholarship Champions Program does not by
+itself create an employment relationship, academic appointment,
+research appointment, partnership, agency relationship, or other
+relationship between the Participant and Simon Fraser University beyond
+the Participant's existing relationship with SFU.
+
+Nothing in this Agreement alters the Participant's existing status,
+appointment, employment, enrolment, or affiliation with SFU.
+
+# 13. Entire agreement
+
+This Agreement constitutes the entire understanding between the Open
+Scholarship Initiative and the Participant regarding the Participant's
+commitments under the Open Scholarship Champions Program and supersedes
+prior or contemporaneous understandings relating specifically to those
+commitments.
+
+Any amendment to this Agreement must be made in writing and agreed to
+by both parties.
+
+# 14. Acknowledgment and signatures
+
+By signing below, the Participant acknowledges that they:
+
+- have read and understood this Agreement;
+- agree to undertake the designated Center for Open Science training;
+- agree to complete a Open Scholarship Project by **August 1, 2027**;
+- understand the confidentiality and privacy obligations described in
+  this Agreement;
+- understand the expectations concerning intellectual property and open
+  sharing; and
+- agree to participate in the Open Scholarship Champions Program in good
+  faith.
+
+{{< pagebreak >}}
+
+# Signatures
+
+## Participant
+
+|||
+|:--|:---------|
+| **Full name:** | `r name` |
+| **Signature:** | |
+| **Date:** |  |
+
+## Open Scholarship Initiative
+
+|||
+|:--|:---------|
+| **Full name:** | Gracielle T. Higino |
+| **Role:** | Open Scholarship Community Manager |
+| **Signature:** | |
+| **Date:** | |
+
+

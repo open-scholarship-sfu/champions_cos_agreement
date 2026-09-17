@@ -1,0 +1,7 @@
+project:
+  title: "Open Scholarship Champions agreement"
+knitr:
+  opts_chunk:
+    dev: svglite
+
+
