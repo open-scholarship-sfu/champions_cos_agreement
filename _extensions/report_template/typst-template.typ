@@ -12,9 +12,9 @@
   logo: none,
   language: "de",
   show-outline: false,
-  compact-mode: false,
+  compact-mode: true,
   heading-color: rgb("#A6192E"),
-  heading-font: "Source Sans Pro", // recommended alternatives: "Fira Sans", "Lato", "Source Sans Pro"
+  heading-font: "Source Sans Pro", 
   datetime-fmt: "[day].[month].[year]",
   body,
 ) = {
@@ -83,40 +83,18 @@ set table(
   )
 
   // Page Grid:
-  // Horizontal 1.5cm-grid = 14u: 3u left margin, 9u text, 2u right margin
-  //     Idea: one-sided document; if printed on paper, the pages are often bound or stapled
-  //     on the left side; so more space needed on the left. On-screen it doesn't matter.
-  // Vertical 1.5cm-grid ≈ 20u: 2u top margin, 14u text, 2u botttom margin
-  //     header with height ≈ 0.6cm is visually part of text block --> top margin = 3cm + 0.6cm
-  set page(               // standard page with header
-    paper: "a4",
-    margin: (top: 3.6cm, left: 4.5cm, right: 3cm, bottom: 3cm),
-    // the header shows the main chapter heading on the left and the page number on the right
-    header: context {
-      if compact-mode and (counter(page).get().first() == 1) {
-        none
-      } else {
-        grid(
-          columns: (1fr, 1fr),
-          align: (left, right),
-          row-gutter: 0.5em,
-          text(font: heading-font, size: label-size,
-            context {hydra(1, use-last: false, skip-starting: false)},),
-          text(font: heading-font, size: label-size, 
-            number-type: "lining",
-            context {if in-outline.get() {
-                counter(page).display("i")      // roman page numbers for the TOC
-              } else {
-                counter(page).display("1")      // arabic page numbers for the rest of the document
-              }
-            }
-          ),
-          grid.cell(colspan: 2, line(length: 100%, stroke: 0.5pt)),
-        )
-      }
-    },
-    header-ascent: 1.5em
-  )
+  set page(
+  paper: "a4",
+  margin: (
+    top: 3cm,
+    left: 3.5cm,
+    right: 3cm,
+    bottom: 3cm,
+  ),
+  numbering: none,
+  header-ascent: 1.5em,
+)
+
 
 show link: set text(rgb("#cc0633"))
 show link: underline
@@ -218,22 +196,26 @@ show link: underline
 
   // ----- Body Text ------------------------
   
-  if compact-mode {             // compact title infos in compact-mode
-    compact-title(
-      doc-category,
-      doc-title,
-      author,
-      affiliation,
-      logo,
-      heading-font,             
-      heading-color,            
-      info-size,                
-      body-size,
-      label-size,
-      datetime-fmt,
-    )
-  }
+  if compact-mode {
+  compact-title(
+    doc-category,
+    doc-title,
+    doc-subtitle,
+    author,
+    affiliation,
+    logo,
+    heading-font,
+    heading-color,
+    info-size,
+    body-size,
+    label-size,
+    datetime-fmt,
+  )
+}
+
 
   body
 
 }
+
+#import "@preview/cheq:0.3.0": checklist

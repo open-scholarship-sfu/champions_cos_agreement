@@ -3,7 +3,7 @@
 #let titlepage(
   doc-category,
   doc-title,
-  doc-subtitle,             // subtitle added
+  doc-subtitle,            
   author,
   affiliation,
   logo,
@@ -16,7 +16,7 @@
   // ----- Page-Setup ------------------------
   set page(
     paper: "a4",
-    margin: (top: 3cm, left: 4.5cm, right: 3cm, bottom: 4.5cm),
+    margin: (top: 3cm, left: 3cm, right: 3cm, bottom: 3cm),
   )
 
   // Some basic rules for the title page layout:
@@ -34,7 +34,7 @@
 
   // ----- Title Category ------------------------
   align(
-    left,
+    center,
     text(
       font: heading-font,
       weight: "regular",
@@ -83,4 +83,64 @@
       + affiliation
     ),
   )
+}
+
+
+// ===== COMPACT TITLE: `compact-title` ====================
+
+#let compact-title(
+  doc-category,
+  doc-title,
+  doc-subtitle,
+  author,
+  affiliation,
+  logo,
+  heading-font,
+  heading-color,
+  info-size,
+  body-size,
+  label-size,
+  datetime-fmt,
+) = {
+  // Compact title block used when compact-mode is enabled.
+
+  grid(
+    columns: (1fr, auto),
+    column-gutter: 0.5em,
+    align: (left, right),
+
+    [
+    #align(center)[
+      #text(
+        font: heading-font,
+        weight: "regular",
+        size: label-size,
+        fill: heading-color,
+      )[#doc-category - #author]
+
+
+        #text(
+          font: heading-font,
+          weight: "bold",
+          size: 18pt,
+          fill: heading-color,
+        )[#doc-title]
+      
+
+
+      #text(
+        font: heading-font,
+        weight: "regular",
+        size: 14pt,
+        fill: luma(40%).mix(heading-color)
+      )[#doc-subtitle]
+    ]],
+
+    if logo != none {
+      logo
+    } else {
+      []
+    },
+  )
+
 }

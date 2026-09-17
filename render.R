@@ -8,8 +8,8 @@ library(stringr)
 # ------------------------------------------------------------
 
 spreadsheet <- "data/participants.csv"
-template <- "agreement.qmd"
-output_dir <- "rendered_agreements"
+template <- "commitment.qmd"
+output_dir <- "rendered_commitments"
 
 # ------------------------------------------------------------
 # Read participant data
@@ -73,7 +73,7 @@ for (i in seq_len(nrow(participants))) {
   name <- as.character(p$name)
 
   message(
-    "\nRendering agreement for ",
+    "\nRendering commitment form for ",
     name,
     " (",
     id,
@@ -83,7 +83,7 @@ for (i in seq_len(nrow(participants))) {
   # Filename for final PDF
   filename <- paste0(
     safe_filename(name),
-    "_Open_Scholarship_Champion_Agreement.pdf"
+    "-OS_Champion_Commitment-R1-2026.pdf"
   )
 
   # ----------------------------------------------------------

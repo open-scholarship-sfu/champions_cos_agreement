@@ -1,0 +1,88 @@
+---
+title: "Open Scholarship Champions Program"
+subtitle: "Participant commitment form"
+author: "Open Scholarship Initiative\\
+        Simon Fraser University"
+date: "2026"
+format:
+  report_template-typst: 
+    page-numbering: false
+    toc: false
+    number-sections: false
+    compact-mode: true
+params:
+  name: ""
+  department_faculty_lab: ""
+  email: ""
+  id: ""
+---
+
+```{r}
+#| include: false
+
+name <- params$name
+department_faculty_lab <- params$department_faculty_lab
+email <- params$email
+id <- params$id
+```
+
+# Purpose 
+
+This Participant Commitment Form sets out the
+commitments of participants in the **Open Scholarship Champions Program** administered by the **Open Scholarship Initiative** at
+Simon Fraser University.
+
+The Program supports members of the SFU community in developing
+knowledge, skills, and practical experience in open scholarship and in
+sharing those practices with the broader SFU and scholarly community.
+
+
+# Commitment
+
+I, `r name` (`r email`), based on the `r department_faculty_lab`, accept to participate in the Open Scholarship Champions program and commit to the following, effective from October 31st, 2026:
+
+```{=typst}
+#show: checklist
+
+- [ ] **Training**: I will complete the designated Center for Open Science (COS) (https://www.cos.io/) training by **May 1, 2027**, including required activities, assignments, and assessments, and will notify the Open Scholarship Initiative if circumstances may prevent completion.
+
+- [ ] **Open Scholarship Project**: I will undertake and complete an approved Open Scholarship Project that meaningfully contributes to the development, understanding, adoption, or dissemination of open scholarship practices by **August 1, 2027**.
+
+- [ ] **Project documentation and sharing**: I will provide a brief description of my project activities and outputs and, where appropriate, make project outputs openly available through a suitable repository, platform, or other venue.
+
+- [ ] **Community contribution**: I will contribute to the Open Scholarship Champions community by sharing knowledge and resources, supporting peers, participating in community activities where possible, and sharing relevant lessons learned.
+
+- [ ] **Respectful participation**: I will read, understand, and comply with the Open Scholarship Initiative Code of Conduct (https://github.com/open-scholarship-sfu/code-of-conduct), as well as applicable SFU policies, procedures, codes, guidelines, and other institutional requirements.
+
+- [ ] **Confidentiality and privacy**: I will protect confidential, personal, unpublished, or otherwise sensitive information encountered through the Program and will not disclose such information without authorization or as otherwise permitted or required by law or policy.
+
+- [ ] **Intellectual property and open sharing**: I understand that I retain ownership of intellectual property I create through my project and, where appropriate, will consider using open licences and repositories to facilitate access, reuse, adaptation, and redistribution.
+
+- [ ] **Changes and extensions**: I will discuss changes to my project with the Open Scholarship Initiative where reasonably possible, and I understand that an extension to the August 1, 2027 deadline may be requested when circumstances outside my reasonable control prevent timely completion.
+
+- [ ] **Program participation and communications**: I agree to participate in the Program in good faith and understand that the Open Scholarship Initiative may identify me as an Open Scholarship Champion and describe the general nature of my project and publicly available outputs in Program-related communications, subject to applicable privacy, confidentiality, intellectual property, and institutional requirements.
+
+- [ ] **Withdrawal and termination**: I understand that I may withdraw from the Program by notifying the Open Scholarship Initiative in writing; that participation is subject to applicable SFU requirements; and that obligations such as confidentiality and intellectual property may continue after withdrawal or termination.
+
+```
+
+{{< pagebreak >}}
+
+## Participant
+
+|||
+|:--|:---------|
+| **Full name:** | `r name` |
+| **Signature:** | |
+| **Date:** |  |
+
+## Open Scholarship Initiative
+
+|||
+|:--|:---------|
+| **Full name:** | Gracielle T. Higino |
+| **Role:** | Open Scholarship Community Manager |
+| **Signature:** | |
+| **Date:** | |
+
+
