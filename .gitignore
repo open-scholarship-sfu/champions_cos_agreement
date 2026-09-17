@@ -2,3 +2,4 @@ data/
 rendered_agreements/
 /.quarto/
 **/*.quarto_ipynb
+agreement.qmd
